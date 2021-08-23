@@ -1,0 +1,181 @@
+.searchSection{
+    margin-top: 20px;
+    /* border: 2px solid orange; */
+    display: flex;
+    justify-content: center;
+}
+
+.searchBox{
+    /* padding: 10px; */
+    border: 2px solid white;
+    background-color: white;
+    border-radius:  50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    color: #526386;
+    margin-bottom: 10px;
+}
+
+.marginspace{
+    margin: 8px;
+}
+
+.location{
+    /* border: 2px solid olive; */
+}
+
+#map{
+    color: rgb(179, 179, 179);
+    /* margin-left: 4px; */
+}
+
+.textF{
+ text-align: center;
+    margin-top: 20px;
+}
+
+.textE{
+    margin-left: 4px;
+}
+
+.searchA{
+    /* border: 2px solid violet; */
+}
+
+#SearchIcon{
+    color: rgb(179, 179, 179);
+}
+
+#searchBox{
+    /* border: 2px solid #526386; */
+    border-radius: 50px;
+    padding: 10px;
+    font-family: 'Poppins', sans-serif;
+    background-color: white; 
+    color: black;
+}
+
+.title{
+    /* border:  2px solid red; */
+    /* width: 50%; */
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+#input{
+
+    border: none;
+    width: 70%;
+    border: none;
+    background-color: #526386;
+    color: white;
+}
+
+#SearchIcoN{
+  color: white;  
+}
+
+.searchBtn{
+    font-size: 1rem;
+width: 150px;
+height: 44px;
+border-radius: 50px;
+border: none;
+background-color: #373B7B;
+color: white;
+display: flex;
+justify-content: space-evenly;
+align-items: center;
+cursor: pointer;
+}
+
+@media only screen and (max-width: 995px){
+
+/* .location{
+    display: none;
+}
+.searchA{
+    display: none;
+} */
+.searchBtn{
+    /* width: 512%; */
+    display: felx;
+    /* flex-direction: row-reverse; */
+    /* justify-content: flex-end; */
+    padding-right: 16px;
+    /* display: inline-block; */
+}
+/* .searchBox{
+    flex-wrap: wrap;
+   display: flex;
+   flex-direction: row-reverse;
+} */
+
+.searchSection{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+}
+
+.search{
+    margin: 0 6px;
+}
+
+
+.location{
+    margin: 0 6px;
+}
+
+.locationdiv{
+    display: flex;
+    justify-content: space-between ;
+    align-items: center;
+}
+
+.gasDiv{
+    display: flex;
+    justify-content: space-between ;
+    align-items: center;
+}
+
+.location{
+    padding: 6px 12px;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid grey;
+}
+
+.search{
+    padding: 6px 12px;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid grey;
+}
+
+@media only screen and (max-width: 665px){
+    .seachbtn {
+        margin-top: 10px;
+    }
+}
+
+@media only screen and (max-width: 665px){
+.searchBox{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    background-color: transparent;
+    border: none;
+}
+
+.location{
+    background-color: transparent;
+}
+
+.search{
+    background-color: transparent;
+}
+
+}

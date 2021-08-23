@@ -1,0 +1,35 @@
+.midbox{
+    margin-top: 50px;
+    /* border: 2px solid green; */
+    color: #526386;
+}
+
+.textA{
+    text-align: center;
+}
+
+.textB{
+    text-align: center;
+}
+
+.textC{
+    margin-top: 2rem;
+    text-align: center; 
+}
+
+.textD{
+    margin-top: 0.4rem;
+    text-align: center;
+}
+
+@media only screen and (max-width: 360px){
+    .textB{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .textC{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+}

@@ -1,0 +1,53 @@
+.bar{
+    position: relative;
+    cursor: pointer;
+}
+
+.ddNavbar{
+    border-radius: 12px;
+    display: none;
+    background-color: white;
+    padding: 6px;
+    position: absolute;
+    right: 0;
+    top: 20px;
+    width: 100px;
+     
+}
+
+.bar:hover .ddNavbar{
+display: block;
+}
+
+
+
+
+.ddMenuSpacing{
+margin-bottom: 10px;
+cursor: pointer;
+font-size: 0.8rem;
+}
+
+#bar:hover .ddNavbar{
+display: block;
+}
+
+@media only screen and (min-width: 1000px){
+    .bar{
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 1000px){
+    .su{
+        display: none;
+    }
+
+    .lg{
+        display: none;
+    }
+}
+
+
+
+

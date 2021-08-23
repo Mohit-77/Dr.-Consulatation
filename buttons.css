@@ -1,0 +1,63 @@
+.buttonSection{
+    /* border: 2px solid pink; */
+    /* margin: 20px; */
+    padding: 6px 12px;
+
+}
+
+.sms{
+    height: 15px;
+    width: 15px;
+    padding-right: 6px;
+    /* margin-top: 4px; */
+}
+
+.Apple{
+    height: 15px;
+    width: 15px;
+    padding-right: 6px;
+}
+
+.play{
+    height: 15px;
+    width: 15px;
+    padding-right: 3px;
+}
+
+
+.buttonMessage{
+padding: 6px 12px;
+border-radius: 50px;
+border: none;
+transition: 0.2s;
+/* display: flex; */
+}
+
+.buttonApple{
+    padding: 6px 12px;
+    border-radius: 50px;
+    border: none;
+    transition: 0.2s;
+}
+
+.buttonPlay{
+    padding: 6px 12px;
+    border-radius: 50px;
+    border: none;
+    transition: 0.2s;
+}
+
+.buttonMessage:hover{
+    background-color: #373B7B;
+    color: white;
+}
+
+.buttonApple:hover{
+    background-color: #373B7B;
+    color: white;
+}
+
+.buttonPlay:hover{
+    background-color: #373B7B;
+    color: white;
+}

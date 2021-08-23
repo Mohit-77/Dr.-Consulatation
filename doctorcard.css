@@ -1,0 +1,552 @@
+.cardX{
+border: 2px solid orange;
+padding-right: 50px;
+padding-left: 50px;
+margin-top: 20px;
+/* display: flex; */
+}
+
+.card-1{
+    border: 2px solid green;
+    background-color: #FFE2D2;
+    position: relative;
+    width: 100%;
+    height: 300px;
+   border-radius: 12px;
+    display: flex;
+    /* align-items: center; */
+    margin-right: 20px;
+
+}
+
+.docButton{
+    padding: 6px 12px;
+    width: 150px;
+    /* height: 50px; */
+    border: none;
+    cursor: pointer;
+    border-radius: 50px;
+    background-color: rgb(220 220 220);
+    transition: 0.2s;
+    font-family: 'Poppins', sans-serif;
+    margin: 6px;
+    color: black;
+ 
+
+}
+
+.docButton:hover{
+    background-color:#373B7B ;
+    padding: 6px 12px;
+    width: 150px;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 50px;
+}
+
+.freeBanner{
+    background-color: pink;
+    margin: 0 50px;
+    margin-top: 10px;
+    border-radius: 12px;
+    display: flex;
+    flex-wrap: wrap;
+    overflow: hidden;
+}
+
+/* .docImage{
+    width: 50%;
+    border: 2px solid black;
+} */
+
+.docGroup{
+    width: 49%;
+    position: relative;
+    bottom: -37px;
+}
+.bannerMsg{
+    /* border: 2px solid red; */
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+}
+
+/* .docCardA{
+    height: 380px;
+    width: 570px;
+    position: absolute;
+    bottom: -28px;
+    /* right: 60px; */
+/* } 
+
+.textK{
+    font-weight: bolder;
+    margin-left: 6px;
+} */
+
+@media only screen and (max-width: 788px){
+    .docGroup{
+        display: none;
+    }
+    .bannerMsg{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .textK{
+        font-size: 1.6rem;
+    }
+}
+
+@media only screen and (max-width: 726px){
+.textK{
+    padding: 12px;
+    text-align: center;
+ }
+}
+
+.docpatient{
+    /* border: 2px solid red; */
+    margin: 50px;
+    display: flex;
+    padding: 20px;
+}
+
+.docCardB{
+    height: 246px;
+    /* border: 2px solid firebrick; */
+    /* padding: 20px; */
+}
+
+.textScetionB{
+/* border: 2px solid black; */
+/* width: 46%; */
+/* padding: 20px; */
+padding-left: 20px;
+display: flex;
+flex-direction: column;
+/* align-items: center; */
+justify-content: center;
+}
+
+.userProfile{
+    /* border: 2px solid green; */
+    padding: 20px 0;
+}
+
+.mentalHealth{
+    color: #646464;
+    font-size: 12px;
+    /* text-align: center; */
+}
+
+.CircleB{
+    width: 35px;
+    height: 35px;
+    /* border: 2px solid black; */
+    border-radius: 50px;
+    background-image: url(https://images.unsplash.com/photo-1537368910025-700350fe46c7?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8ZG9jdG9yfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60);
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+
+.guy{
+padding-left: 12px;
+}
+
+@media only screen and (max-width: 1010px){
+    .docCardB{
+        display: none;
+       
+    }
+    .textScetionB{
+width: 100%;
+padding: 0;
+    }
+    
+}
+
+.doctortext{
+    padding-left: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 50%;
+}
+
+.doctorimgA{
+    width: 50%;
+}
+
+.pinkDcotor{
+    width: 35px;
+    height: 35px;
+    border-radius: 50px;
+}
+
+.cardY{
+    border: 2px solid black;
+    margin-top: 20px;
+    display: flex;
+    /* flex-direction: row-reverse; */
+    padding-right: 44px;
+    padding-left: 44px;
+}
+
+.card-2{
+    border: 2px solid red;
+    background-color: #ffffff;
+    border-radius: 12px;
+    width: 550px;
+    display: flex;
+}
+
+.doctorimgB{
+    border: 2px solid black;
+    
+    padding: 26px;
+}
+
+.docCardB{
+/* height: 150px; */
+border-radius: 12px;
+box-shadow: -8px 9px 0 #ff9696;
+}
+
+.doctoetextA{
+    border: 2px solid green;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 12px;
+}
+
+.textZ{
+    font-weight: bolder;
+}
+
+.textQ{
+    /* font-size: 0.8rem; */
+    position: relative;
+}
+
+.CircleA{
+    /* border: 2px solid brown; */
+    background-image: url(https://images.unsplash.com/photo-1618498082410-b4aa22193b38?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fGRvY3RvciUyMHBhdGllbnR8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 35px;
+    height: 35px;
+    border-radius: 25px;
+}
+
+.lastDocCard{
+    /* border:2px solid black ; */
+    display: flex;
+    overflow: hidden;
+  margin-left: 50px;
+  margin-right: 50px;
+    
+}
+
+.DownloadApp{
+    /* border: 2px solid green; */
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.applinks{
+    text-align: center;
+}
+
+.appLinks{
+    font-size: 12px;
+    text-align: center;
+    color: #646464;
+}
+
+.doctorpicSection{
+    /* border: 2px solid grey; */
+    width: 50%;
+}
+
+.mobileSection{
+    /* border: 2px solid aqua; */
+    width: 50%;
+}
+
+.buttonSection{
+    /* border: 2px solid pink; */
+    margin-top: 20px;
+}
+
+.mobileDiagram{
+    height: 550px;
+    width: 275px;
+    /* border: 2px solid grey; */
+}
+
+/* .soloDoctor{
+    /* position: relative;
+    bottom: -12px; */
+
+
+.GetApp{
+    text-align: center;
+}
+
+@media only screen and (max-width: 1075px){
+    .buttonSection{
+        border: none;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+    }
+}
+
+@media only screen and (max-width: 880px){
+    .lastDocCard{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .doctorpicSection{
+        display: flex;
+        align-items: center;
+        justify-content:center ;
+    }
+}
+
+@media only screen and (max-width: 1019px){
+    .footerSection{
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 1038px){
+ .userProfile{
+    display: flex;
+    align-items: center;
+ }
+
+.doctorPic{
+    width: 100%;
+    height: 100%;
+    border-radius: 25px;
+}
+
+.text-1{
+    /* font-size: 0.8rem; */
+    padding-left: 12px;
+}
+
+.cardZ{
+    /* border: 2px solid green; */
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    /* height: 50%; */
+    padding-right: 50px;
+    padding-left: 50px;
+}
+
+.card-3{
+    /* border: 2px solid orange; */
+    /* background-color: #B2BDC6; */
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    height:50%;
+    width: 100%;
+}
+
+.card-l{
+    /* border: 2px solid firebrick; */
+    padding: 12px;
+    width: 50%;
+    /* height: 100%; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card-r{
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+}
+
+.text-2{
+    font-weight: bolder;
+}
+
+.text-3{
+    /* color: white; */
+    /* font-size: 0.8rem; */
+    font-weight: lighter;
+    margin-top: 6px;
+}
+
+.text-4{
+    /* font-size: 0.8rem; */
+    font-weight: bolder;
+    margin-top: 6px;
+}
+
+/* .sms{
+    height: 15px;
+    width: 15px;
+    padding-right: 6px;
+    transition: 0.2s;
+} */
+
+.Apple{
+    height: 15px;
+    width: 15px; 
+    padding-right: 6px;
+    transition: 0.2s;
+}
+
+.play{
+    height: 15px;
+    width: 15px;
+    padding-right: 6px;
+    transition: 0.2s;
+}
+
+.buttonMessage:hover{
+ color:white;
+ background-color: #383B7A;
+
+}
+
+.buttonPlay:hover{
+    color:white;
+    background-color: #383B7A;
+   }
+
+   .buttonApple:hover{
+    color:white;
+    background-color: #383B7A;
+   }
+
+.buttonMessage{
+    margin: 12PX;
+    /* border: 2px solid blue; */
+    border: none;
+    /* padding: 4px; */
+    background-color: #dcdcdc;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 38px;
+    height: 26px;
+    /* width: 110px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.2s;
+}
+
+.buttonApple{
+    margin: 12PX;
+    /* border: 2px solid blue; */
+    border: none;
+    /* padding: 4px; */
+    background-color: #dcdcdc;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 38px;
+    /* width: 110px; */
+    height: 26px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.buttonPlay{
+    margin: 12PX;
+    /* border: 2px solid blue; */
+    border: none;
+    /* padding: 4px; */
+    background-color: #dcdcdc;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 38px;
+    /* width: 110px; */
+    height: 26px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-right: 6px;
+}
+
+.texture{
+    font-size: 0.8rem;
+    transition: 0.2s;
+}
+
+.texture:hover{
+color: white;
+}
+
+.phonedoctor{
+    width:50% ;
+    height:50% ;
+}
+
+.combine{
+    display: flex;
+    align-items: center;
+}
+
+@media only screen and (max-width: 740px){
+    .service{
+        text-align: center;
+    }
+
+    .mentalHealth{
+        text-align: center;
+    }
+
+    .userProfile{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+
+.buttonMessage{
+    margin: 12PX;
+    /* border: 2px solid blue; */
+    border: none;
+    /* padding: 4px; */
+    background-color: #dcdcdc;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 38px;
+    height: 26px;
+    width: 110px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.2s;
+}
+
+.buttonApple{
+    width: 111px;
+}

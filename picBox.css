@@ -1,0 +1,164 @@
+.picBoxMain{
+    /* border: 2px solid green; */
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.picBox{
+    border: 10px solid white;
+    border-radius: 30px;
+    background-color: white;
+    width: 50%;
+   position: relative;
+    background-image: url(https://images.unsplash.com/photo-1589279003513-467d320f47eb?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NTB8fGRvY3RvcnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 350px;
+}
+
+.docImg{
+    border-radius: 12px;
+    width: 100%;
+}
+
+.titleBox{
+    /* border: 2px solid crimson; */
+    color: #526386;
+    margin-top: 10px;
+}
+
+.textI{
+    margin-top: 4.2rem;
+    text-align: center;
+}
+
+.textX{
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.imageBoxA{
+    background-image: url(https://images.unsplash.com/photo-1537368910025-700350fe46c7?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8ZG9jdG9yc3xlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60);
+    background-size: cover;
+    position: absolute;
+   left: 12px;
+   top: 12px;
+   z-index: 1;
+   width: 30px;
+   height: 30px;
+   border-radius: 50px;
+}
+
+.imageBoxB{
+    background-image: url(https://images.unsplash.com/photo-1536064479547-7ee40b74b807?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mzd8fGRvY3RvciUyMHBhdGllbnR8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60);
+    background-size: cover;
+    position: absolute;
+  right: 20px;
+   top: 12px;
+   z-index: 1;
+   width: 80px;
+   height: 80px;
+   border-radius: 8px;
+}
+
+.textJ{
+    position: absolute;
+    left: 55px;
+    top: 22px;
+}
+
+.consulto{
+    font-size: 18px;
+    font-weight: bolder;
+}
+
+.free{
+    font-size: 14px;
+}
+
+@media only screen and (max-width: 960px){
+    .CardLeft{
+        display: none;
+    }
+    .CardRight{
+        display: none;
+    }
+
+}
+
+.CardLeft{
+    /* border: 2px solid red; */
+    background-color: white;
+    width: 185px;
+    border-radius: 12px;
+    position: absolute;
+    left: -50px;
+    top: 85px;
+    box-shadow: 0 0 4px 2px #dcdcdc;
+}
+
+.chatbox{
+    margin-top: 10px;
+    margin-left: 10px;
+    height: 40px;
+    width: 40px;
+}
+
+.cardLeftA{
+    /* border: 2px solid green; */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.cardLeftB{
+    /* border: 2px solid green; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.CardRight{
+    /* border: 2px solid red; */
+    background-color: white;
+    width: 185px;
+    border-radius: 12px;
+    position: absolute;
+    right: -50px;
+    top: 185px;
+    box-shadow: 0 0 4px 2px #dcdcdc;
+}
+
+.chatbox{
+    margin-top: 10px;
+    margin-left: 10px;
+    height: 40px;
+    width: 40px;
+}
+
+.cardRightA{
+    /* border: 2px solid green; */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.cardRightB{
+    /* border: 2px solid green; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media only screen and (max-width: 800px){
+    .imageBoxB{
+        display: none;
+    }
+}
+
+
+
